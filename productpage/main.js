@@ -6,10 +6,10 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.set('view engine', 'ejs');
 
 let products = [
-    { name: "Product 1", price: 19.99 },
-    { name: "Product 2", price: 29.99 },
-    { name: "Product 3", price: 39.99 },
-    { name: "Product 4", price: 49.99 },
+    { name: "Product 1", price: 18.99 },
+    { name: "Product 2", price: 20.99 },
+    { name: "Product 3", price: 34.99 },
+    { name: "Product 4", price: 50.99 },
 ];
 
 // GET / - Display product list with optional search filtering

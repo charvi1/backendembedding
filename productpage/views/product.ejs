@@ -4,7 +4,7 @@
     <ul>
         <% products.forEach(product => { %>
             <li>
-                <strong><%= product.name %></strong> - $<%= product.price.toFixed(2) %>
+                <strong><%= product.name %></strong> - $<%= product.price.toFixed(1) %>
             </li>
         <% }) %>
     </ul>
